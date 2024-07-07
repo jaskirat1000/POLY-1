@@ -3,7 +3,7 @@
 ## NFT Collection Deployment and Bridging Project
 
 ## Project Overview
-This project demonstrates the deployment of a 5-item NFT collection using DALLE 2, storage on IPFS via Pinata, deployment on the Goerli Ethereum Testnet as ERC721 tokens, mapping to Polygon Mumbai network, and bridging using the FxPortal Bridge.
+This project demonstrates the deployment of a 5-item NFT collection using DALLE 2, storage on IPFS via Pinata, deployment on the sepolia Ethereum Testnet as ERC721 tokens, mapping to Polygon amoy network, and bridging using the FxPortal Bridge.
 
 ## Setup Instructions
 1. Clone this repository.
@@ -14,11 +14,11 @@ This project demonstrates the deployment of a 5-item NFT collection using DALLE 
 ## Deployment Steps
 1. **NFT Generation**: Generate 5 unique items using DALLE 2.
 2. **IPFS Storage**: Upload images and metadata JSON files to IPFS via Pinata.
-3. **Contract Deployment**: Deploy ERC721 contract on Goerli Testnet.
+3. **Contract Deployment**: Deploy ERC721 contract on sepolia Testnet.
 4. **Mapping to Polygon**: Use Polygon token mapper to map ERC721 contract.
 5. **Minting NFTs**: Batch mint all NFTs using Hardhat script.
-6. **Transfer to Polygon**: Transfer NFTs from Goerli to Polygon Mumbai using FxPortal Bridge.
-7. **Testing**: Verify NFT balance on Polygon Mumbai network.
+6. **Transfer to Polygon**: Transfer NFTs from sepolia to Polygon amoy using FxPortal Bridge.
+7. **Testing**: Verify NFT balance on Polygon amoy network.
 
 ## Scripts
 - **Minting Script**: `scripts/mint.js` - Script to batch mint NFTs.
